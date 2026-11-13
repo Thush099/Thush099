@@ -14,7 +14,7 @@
 
 - **Education:** BSc (Hons) **Artificial Intelligence & Data Science** undergraduate at **IIT Sri Lanka** (affiliated with **Robert Gordon University**)
 - **Industry Experience:** Former **AI Engineering Intern at DecodeLabs** — delivered end-to-end applied ML, NLP recommender, guardrail, and OpenCV/OCR pipelines
-- **Engineering Focus:** LLM verification & hybrid retrieval (RAG, FActScore NLI, G-Eval), streaming & batch ML observability, federated privacy, causal uplift, and PyTorch multimodal transformers
+- **Engineering Focus:** Multimodal OCR forensics & claim auditing, adversarial tool-agent evaluation, hybrid retrieval (RAG, FActScore NLI, G-Eval), streaming ML observability, and open-source ML tooling
 
 ---
 
@@ -28,6 +28,10 @@
 
 ### Featured Systems & Benchmarks
 
+<p align="center">
+  <a href="https://github.com/Thush099/veridoc-forensics"><img src="./assets/cards/veridoc.svg" width="49%" alt="veridoc-forensics — Multimodal OCR & Claim Verification" /></a>
+  <a href="https://github.com/Thush099/traceguard-eval"><img src="./assets/cards/traceguard.svg" width="49%" alt="traceguard-eval — Adversarial Agent Evaluation" /></a>
+</p>
 <p align="center">
   <a href="https://github.com/Thush099/CM3604_CW"><img src="./assets/cards/cm3604.svg" width="49%" alt="CM3604_CW — FActScore NLI" /></a>
   <a href="https://github.com/Thush099/DecodeLabs-Internship"><img src="./assets/cards/decodelabs.svg" width="49%" alt="DecodeLabs-Internship — Applied AI" /></a>
@@ -43,12 +47,24 @@
 
 | Repository | Scope & Engineering Details | Verified Results & Highlights |
 | :--- | :--- | :--- |
+| [**`veridoc-forensics`**](https://github.com/Thush099/veridoc-forensics) | Multimodal document auditor combining OpenCV skew/blur restoration, JPEG Q90 ELA + MAD noise tamper heatmaps, Tesseract OCR, hybrid BM25/TF-IDF claim verification, and FastAPI Studio UI | Restores degraded OCR char accuracy from `0.0%` → `99.7%` (`66.7%` → `99.9%` mean across suite), `100.0%` claim verdict & tamper accuracy, `16` passing `pytest` tests |
+| [**`traceguard-eval`**](https://github.com/Thush099/traceguard-eval) | Deterministic multi-step tool-agent sandbox, adversarial prompt-injection & HTTP/JSON fault fuzzer, schema/budget guards, and FastAPI Trace Replay UI | `TraceGuardHardenedAgent` scores **`100.00`** vs `63.33` (`SchemaRetryAgent`) & `39.58` (`NaiveAgent`) on benchmark (`100.00` vs `61.00` vs `37.69` on 30-run fuzz); `17` passing `pytest` tests |
 | [**`CM3604_CW`**](https://github.com/Thush099/CM3604_CW) | Automated fact-checking of LLM outputs against BM25 evidence passages with grouped CV ablations & error analysis | Majority baseline `50.68%` (`112/221`) → Lexical overlap `84.16%` (`186/221`) → Fine-tuned DeBERTa NLI `88.24%` (`195/221`) |
 | [**`DecodeLabs-Internship`**](https://github.com/Thush099/DecodeLabs-Internship) | Four applied AI capstones spanning input guardrails, customer classification, TF-IDF skill-gap recommendations, and document OCR | Combines OpenCV perspective/contrast normalization with Tesseract extraction across end-to-end runnable modules |
 | [**`seniruvitharanage/domain-ai`**](https://github.com/seniruvitharanage/domain-ai) | Contributed priority-scoring ML sub-pipeline merging TF-IDF developer issue text with repository & workflow metadata | Gradient Boosting model trained on `9,120` samples achieving `96.97%` accuracy & weighted F1 on `2,280` test cases |
 | [**`CM2604-Churn-Classifier`**](https://github.com/Thush099/CM2604-Churn-Classifier) | Telco customer churn prediction comparing hyperparameter-tuned Decision Tree and Dropout/EarlyStopping Keras MLP | Strict train-only SMOTE oversampling to prevent data leakage under ROC-AUC and generalization-gap evaluation |
 
 </details>
+
+---
+
+### Open-Source Contributions & Enhanced Forks
+
+| Repository | Upstream Project | Engineering Contributions & Verification |
+| :--- | :--- | :--- |
+| [**`Thush099/chonkie`**](https://github.com/Thush099/chonkie) | [`feyninc/chonkie`](https://github.com/feyninc/chonkie) | Fixed `OverlapRefinery._split_text` & `_recursive_overlap` infinite-loop / whitespace chunk boundary bugs ([`fix/overlap-refinery-recursive-whitespace`](https://github.com/Thush099/chonkie/tree/fix/overlap-refinery-recursive-whitespace), upstream [`#681`](https://github.com/feyninc/chonkie/issues/681)); `89` refinery & recursive chunker tests pass (`4` `from_recipe` tests deselected without `huggingface_hub`) |
+| [**`Thush099/cleanlab`**](https://github.com/Thush099/cleanlab) | [`cleanlab/cleanlab`](https://github.com/cleanlab/cleanlab) | Fixed `IndexError` bounds ordering in `token_classification.rank.issues_from_scores` (upstream [`#1338`](https://github.com/cleanlab/cleanlab/issues/1338)) and single-class `K == 1` `ValueError` in `rank.get_normalized_margin_for_each_label` (upstream [`#1356`](https://github.com/cleanlab/cleanlab/issues/1356)) on [`fix/rank-boundary-guards`](https://github.com/Thush099/cleanlab/tree/fix/rank-boundary-guards); `124` upstream/regression tests pass across rank, token classification, util & validation modules |
+| [**`Thush099/hiring-agent`**](https://github.com/Thush099/hiring-agent) | [`interviewstreet/hiring-agent`](https://github.com/interviewstreet/hiring-agent) | Resolved scoring clamping, JSON extraction & defensive transform bugs and built [`calibration_audit.py`](https://github.com/Thush099/hiring-agent/blob/feat/offline-rubric-calibration-audit/calibration_audit.py) for offline rubric integrity (`100.0%` tier accuracy, `97.2%` evidence grounding) and counterfactual fairness auditing (`0.00` delta, `1.000` Kendall's τ) on [`feat/offline-rubric-calibration-audit`](https://github.com/Thush099/hiring-agent/tree/feat/offline-rubric-calibration-audit); `13` passing tests |
 
 ---
 
@@ -122,6 +138,7 @@ A suite of standalone, modular Python packages covering retrieval, LLM faithfuln
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=111827" alt="Hugging Face" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />

@@ -23,11 +23,11 @@
 
   <!-- 4 Stat Tiles -->
   <rect x="28" y="54" width="93" height="62" rx="8" fill="#161B22" stroke="#1E293B"/>
-  <text x="40" y="80" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700">181</text>
+  <text x="40" y="80" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700">188</text>
   <text x="40" y="101" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Contributions</text>
 
   <rect x="129" y="54" width="93" height="62" rx="8" fill="#161B22" stroke="#1E293B"/>
-  <text x="141" y="80" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700">154</text>
+  <text x="141" y="80" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700">157</text>
   <text x="141" y="101" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Commits</text>
 
   <rect x="230" y="54" width="93" height="62" rx="8" fill="#161B22" stroke="#1E293B"/>
@@ -35,7 +35,7 @@
   <text x="242" y="101" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Max / Cur Streak</text>
 
   <rect x="331" y="54" width="91" height="62" rx="8" fill="#161B22" stroke="#1E293B"/>
-  <text x="343" y="80" fill="#818CF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700">12 / 1</text>
+  <text x="343" y="80" fill="#818CF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700">14 / 2</text>
   <text x="343" y="101" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Repos / Stars</text>
 
   <text x="28" y="139" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600">
@@ -59,28 +59,28 @@
   </text>
   <rect x="472" y="86" width="400" height="10" rx="5" fill="#1E293B"/>
   <g clip-path="url(#langBarClip)">
-    <rect x="472.0" y="86" width="289.4" height="10" fill="#3572A5" /><rect x="761.4" y="86" width="110.6" height="10" fill="#DA5B0B" />
+    <rect x="472.0" y="86" width="379.3" height="10" fill="#3572A5" /><rect x="851.3" y="86" width="19.6" height="10" fill="#DA5B0B" /><rect x="870.9" y="86" width="2.0" height="10" fill="#427819" /><rect x="871.5" y="86" width="2.0" height="10" fill="#384d54" />
   </g>
-  <circle cx="477" cy="120" r="4.5" fill="#3572A5" /><text x="488" y="124" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Python (10r)</text><text x="660" y="124" text-anchor="end" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">72.4%</text><circle cx="681" cy="120" r="4.5" fill="#DA5B0B" /><text x="692" y="124" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Jupyter (1r)</text><text x="872" y="124" text-anchor="end" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">27.6%</text>
+  <circle cx="477" cy="120" r="4.5" fill="#3572A5" /><text x="488" y="124" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Python (13r)</text><text x="660" y="124" text-anchor="end" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">94.8%</text><circle cx="681" cy="120" r="4.5" fill="#DA5B0B" /><text x="692" y="124" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Jupyter (1r)</text><text x="872" y="124" text-anchor="end" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">4.9%</text><circle cx="477" cy="146" r="4.5" fill="#427819" /><text x="488" y="150" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Makefile</text><text x="660" y="150" text-anchor="end" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">0.1%</text><circle cx="681" cy="146" r="4.5" fill="#384d54" /><text x="692" y="150" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Dockerfile</text><text x="872" y="150" text-anchor="end" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">0.1%</text>
 
   <text x="472" y="168" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600">
     CORE ENGINEERING TRACKS &amp; STACK
   </text>
   <rect x="472" y="178" width="126" height="28" rx="7" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.45"/>
-  <text x="535" y="196" text-anchor="middle" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">LLM Eval &amp; RAG</text>
+  <text x="535" y="196" text-anchor="middle" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Agent &amp; LLM Eval</text>
 
   <rect x="609" y="178" width="126" height="28" rx="7" fill="#0F172A" stroke="#34D399" stroke-opacity="0.45"/>
-  <text x="672" y="196" text-anchor="middle" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">ML Observability</text>
+  <text x="672" y="196" text-anchor="middle" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Vision &amp; OCR</text>
 
   <rect x="746" y="178" width="126" height="28" rx="7" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.45"/>
-  <text x="809" y="196" text-anchor="middle" fill="#818CF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Vision &amp; PyTorch</text>
+  <text x="809" y="196" text-anchor="middle" fill="#818CF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">MLOps &amp; Privacy</text>
 
   <rect x="472" y="214" width="126" height="28" rx="7" fill="#161B22" stroke="#30363D"/>
-  <text x="535" y="232" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5">Hybrid BM25 / NLI</text>
+  <text x="535" y="232" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5">RAG / NLI / Fuzz</text>
 
   <rect x="609" y="214" width="126" height="28" rx="7" fill="#161B22" stroke="#30363D"/>
-  <text x="672" y="232" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5">ADWIN / PSI / JS</text>
+  <text x="672" y="232" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5">OpenCV / ELA</text>
 
   <rect x="746" y="214" width="126" height="28" rx="7" fill="#161B22" stroke="#30363D"/>
-  <text x="809" y="232" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5">FedAvg / Uplift</text>
+  <text x="809" y="232" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5">ADWIN / PSI / DP</text>
 </svg>

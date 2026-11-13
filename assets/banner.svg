@@ -69,7 +69,7 @@
     BSc (Hons) Artificial Intelligence &amp; Data Science · IIT / Robert Gordon University
   </text>
   <text x="54" y="147" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400">
-    Building evaluated RAG &amp; NLI pipelines, real-time ML drift monitors, and multimodal PyTorch systems.
+    Building OCR forensics, agent evaluation harnesses, hybrid RAG, and PyTorch ML systems.
   </text>
 
   <!-- Compact metadata chips -->
@@ -79,8 +79,8 @@
   <rect x="196" y="162" width="166" height="22" rx="6" fill="#161B22" stroke="#30363D"/>
   <text x="279" y="177" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500">Ex-AI Intern @ DecodeLabs</text>
 
-  <rect x="370" y="162" width="184" height="22" rx="6" fill="#161B22" stroke="#30363D"/>
-  <text x="462" y="177" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500">LLM Eval · CV · Causal ML</text>
+  <rect x="370" y="162" width="192" height="22" rx="6" fill="#161B22" stroke="#30363D"/>
+  <text x="466" y="177" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500">Agent Eval · CV · RAG · OSS</text>
 
   <!-- Right Panel: Minimalist ML Systems DAG -->
   <rect x="654" y="30" width="216" height="154" rx="12" fill="#0D1117" fill-opacity="0.85" stroke="#1E293B" stroke-width="1.2"/>

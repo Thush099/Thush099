@@ -80,6 +80,28 @@ FONT_MONO = "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
 
 FEATURED_SPECS = [
     {
+        "slug": "veridoc",
+        "owner": "Thush099",
+        "repo": "veridoc-forensics",
+        "title": "veridoc-forensics · OCR & NLI",
+        "line1": "OpenCV skew/blur restoration, JPEG ELA tamper detection,",
+        "line2": "Tesseract OCR & hybrid BM25/TF-IDF claim verification UI.",
+        "metric": "99.9% Restored OCR",
+        "metric_color": "#38BDF8",
+        "tag": "CV · Document Forensics",
+    },
+    {
+        "slug": "traceguard",
+        "owner": "Thush099",
+        "repo": "traceguard-eval",
+        "title": "traceguard-eval · Agent Eval",
+        "line1": "Deterministic tool-using agent benchmark, adversarial",
+        "line2": "injection/fault fuzzer, FastAPI replay UI & CLI.",
+        "metric": "100.00 Audit Score",
+        "metric_color": "#34D399",
+        "tag": "Agents · Safety Fuzzing",
+    },
+    {
         "slug": "cm3604",
         "owner": "Thush099",
         "repo": "CM3604_CW",
@@ -87,7 +109,7 @@ FEATURED_SPECS = [
         "line1": "Automated LLM claim fact-checking comparing BM25 lexical",
         "line2": "overlap against fine-tuned DeBERTa textual entailment.",
         "metric": "88.24% Accuracy",
-        "metric_color": "#34D399",
+        "metric_color": "#818CF8",
         "tag": "NLP · Fact Verification",
     },
     {
@@ -109,7 +131,7 @@ FEATURED_SPECS = [
         "line1": "Developer task urgency classifier trained on 9,120 samples",
         "line2": "with TF-IDF text & metadata features in Gradient Boosting.",
         "metric": "96.97% Test F1",
-        "metric_color": "#818CF8",
+        "metric_color": "#34D399",
         "tag": "Collaborative · ML",
     },
     {
@@ -359,22 +381,22 @@ def build_stats_svg(data: dict[str, Any]) -> str:
     CORE ENGINEERING TRACKS &amp; STACK
   </text>
   <rect x="472" y="178" width="126" height="28" rx="7" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.45"/>
-  <text x="535" y="196" text-anchor="middle" fill="#38BDF8" font-family="{FONT_SANS}" font-size="11.5" font-weight="600">LLM Eval &amp; RAG</text>
+  <text x="535" y="196" text-anchor="middle" fill="#38BDF8" font-family="{FONT_SANS}" font-size="11.5" font-weight="600">Agent &amp; LLM Eval</text>
 
   <rect x="609" y="178" width="126" height="28" rx="7" fill="#0F172A" stroke="#34D399" stroke-opacity="0.45"/>
-  <text x="672" y="196" text-anchor="middle" fill="#34D399" font-family="{FONT_SANS}" font-size="11.5" font-weight="600">ML Observability</text>
+  <text x="672" y="196" text-anchor="middle" fill="#34D399" font-family="{FONT_SANS}" font-size="11.5" font-weight="600">Vision &amp; OCR</text>
 
   <rect x="746" y="178" width="126" height="28" rx="7" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.45"/>
-  <text x="809" y="196" text-anchor="middle" fill="#818CF8" font-family="{FONT_SANS}" font-size="11.5" font-weight="600">Vision &amp; PyTorch</text>
+  <text x="809" y="196" text-anchor="middle" fill="#818CF8" font-family="{FONT_SANS}" font-size="11.5" font-weight="600">MLOps &amp; Privacy</text>
 
   <rect x="472" y="214" width="126" height="28" rx="7" fill="#161B22" stroke="#30363D"/>
-  <text x="535" y="232" text-anchor="middle" fill="#CBD5E1" font-family="{FONT_MONO}" font-size="10.5">Hybrid BM25 / NLI</text>
+  <text x="535" y="232" text-anchor="middle" fill="#CBD5E1" font-family="{FONT_MONO}" font-size="10.5">RAG / NLI / Fuzz</text>
 
   <rect x="609" y="214" width="126" height="28" rx="7" fill="#161B22" stroke="#30363D"/>
-  <text x="672" y="232" text-anchor="middle" fill="#CBD5E1" font-family="{FONT_MONO}" font-size="10.5">ADWIN / PSI / JS</text>
+  <text x="672" y="232" text-anchor="middle" fill="#CBD5E1" font-family="{FONT_MONO}" font-size="10.5">OpenCV / ELA</text>
 
   <rect x="746" y="214" width="126" height="28" rx="7" fill="#161B22" stroke="#30363D"/>
-  <text x="809" y="232" text-anchor="middle" fill="#CBD5E1" font-family="{FONT_MONO}" font-size="10.5">FedAvg / Uplift</text>
+  <text x="809" y="232" text-anchor="middle" fill="#CBD5E1" font-family="{FONT_MONO}" font-size="10.5">ADWIN / PSI / DP</text>
 </svg>
 """
 
