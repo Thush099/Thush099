@@ -65,11 +65,11 @@
   <text x="54" y="92" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.6">
     Thushanth Mahendran
   </text>
-  <text x="54" y="120" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600">
-    BSc (Hons) Artificial Intelligence &amp; Data Science · IIT / Robert Gordon University
+  <text x="54" y="120" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    BSc (Hons) AI &amp; Data Science · IIT / Robert Gordon University
   </text>
   <text x="54" y="147" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400">
-    Building OCR forensics, agent evaluation harnesses, hybrid RAG, and PyTorch ML systems.
+    OCR forensics, adversarial agent evals, hybrid RAG &amp; PyTorch ML.
   </text>
 
   <!-- Compact metadata chips -->
