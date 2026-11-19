@@ -43,15 +43,15 @@ I’m interested in turning ML ideas into systems that are testable and useful: 
 
 - [**veridoc-forensics**](https://github.com/Thush099/veridoc-forensics) — Document OCR and restoration, tamper analysis, and evidence-based claim verification.
 - [**traceguard-eval**](https://github.com/Thush099/traceguard-eval) — A deterministic sandbox for evaluating tool-using agents under schema errors and adversarial faults.
-- [**rag-pipeline**](https://github.com/Thush099/rag-pipeline) — Hybrid retrieval, reranking, and sentence-level citation grounding.
+- [**rag-pipeline**](https://github.com/Thush099/rag-pipeline) — Hybrid retrieval, reranking, and sentence-level citation grounding, with a groundedness score that can gate a CI job.
 - [**llm-eval-harness**](https://github.com/Thush099/llm-eval-harness) — Claim-level faithfulness checks, rubric-based evaluation, and model comparisons.
 - [**SkillEvaluator**](https://github.com/Thush099/SkillEvaluator) — A fork of NVIDIA’s framework for evaluating agent skills.
 - [**hiring-agent**](https://github.com/Thush099/hiring-agent) — A hiring-assistant project centered on rubric-based evaluation and calibration.
 
 ### Data quality and ML reliability
 
-- [**data-profiler**](https://github.com/Thush099/data-profiler) — Dataset profiling, data contracts, anomaly checks, and remediation planning.
-- [**drift-tracker**](https://github.com/Thush099/drift-tracker) — Batch monitoring for feature drift, prediction drift, and data quality.
+- [**data-profiler**](https://github.com/Thush099/data-profiler) — Dataset profiling, data contracts, anomaly checks, and remediation planning, with `--fail-on` exit codes for pipeline gating.
+- [**drift-tracker**](https://github.com/Thush099/drift-tracker) — Batch monitoring for feature drift, prediction drift, and data quality, with severity-based exit codes.
 - [**drift-detector**](https://github.com/Thush099/drift-detector) — Streaming drift detection with adaptive model retraining.
 - [**fed-sim**](https://github.com/Thush099/fed-sim) — A federated-learning simulator for non-IID clients and differential-privacy experiments.
 
@@ -68,6 +68,8 @@ I’m interested in turning ML ideas into systems that are testable and useful: 
 ## Open-source focus
 
 I’m especially interested in reliability edge cases: **recursive chunk boundaries** in Chonkie, **token-classification ranking** in Cleanlab, **rubric auditability** in hiring-agent, and **evaluation-runner usability** in SkillEvaluator. See the linked repositories for the projects and their current state.
+
+Every portfolio repository above carries a `quality/release-ready-2026-11` pull request from a recent release-readiness pass: validation at public API and CLI boundaries, regression tests for numerical corner cases (non-finite values, duplicate IDs, empty groups), deterministic benchmark fixtures, read-only GitHub Actions test workflows with Dependabot, and exit-code gating so data-quality and retrieval tools can fail a pipeline when their thresholds are crossed.
 
 ## Tools I use
 
