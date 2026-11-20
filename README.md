@@ -69,7 +69,7 @@ I’m interested in turning ML ideas into systems that are testable and useful: 
 
 I’m especially interested in reliability edge cases: **recursive chunk boundaries** in Chonkie, **token-classification ranking** in Cleanlab, **rubric auditability** in hiring-agent, and **evaluation-runner usability** in SkillEvaluator. See the linked repositories for the projects and their current state.
 
-Every portfolio repository above carries a `quality/release-ready-2026-11` pull request from a recent release-readiness pass: validation at public API and CLI boundaries, regression tests for numerical corner cases (non-finite values, duplicate IDs, empty groups), deterministic benchmark fixtures, read-only GitHub Actions test workflows with Dependabot, and exit-code gating so data-quality and retrieval tools can fail a pipeline when their thresholds are crossed.
+Every portfolio repository above carries a `quality/release-ready-2026-11` pull request from a recent release-readiness pass: validation at public API and CLI boundaries, regression tests for numerical corner cases (non-finite values, duplicate IDs, empty groups), metric-correctness guards for edge cases that would otherwise silently return misleading numbers (non-finite inputs, degenerate configurations, undefined rates), deterministic benchmark fixtures, read-only GitHub Actions test workflows with Dependabot, and exit-code gating so data-quality and retrieval tools can fail a pipeline when their thresholds are crossed.
 
 ## Tools I use
 
