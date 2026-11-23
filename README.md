@@ -170,6 +170,29 @@ Modular Python libraries spanning hybrid RAG, LLM faithfulness evaluation, strea
 
 ---
 
+### Interactive Web UIs
+
+Every tool above ships a local web UI that drives its **real pipeline** in the browser — no demo data, no mock responses. Each is a single self-contained HTML page behind a small standard-library server (`python ui/server.py`), so it runs anywhere with no front-end build step.
+
+| Repository | Studio | What it visualizes |
+| :--- | :--- | :--- |
+| [`rag-pipeline`](https://github.com/Thush099/rag-pipeline) | Retrieval workbench | Citations and sentence-level grounding for a live query |
+| [`data-profiler`](https://github.com/Thush099/data-profiler) | Data-quality spec sheet | Contract violations, profile, and remediation plan |
+| [`drift-tracker`](https://github.com/Thush099/drift-tracker) | Drift observability | Feature/prediction drift with OK/WARN/ALERT severity |
+| [`drift-detector`](https://github.com/Thush099/drift-detector) | Concept-drift seismograph | Streaming ADWIN / Page-Hinkley detections over time |
+| [`uplift-ml`](https://github.com/Thush099/uplift-ml) | Causal uplift lab | Qini/AUUC curves and per-decile uplift by treatment arm |
+| [`llm-eval-harness`](https://github.com/Thush099/llm-eval-harness) | Eval leaderboard | Faithfulness and rubric scores side by side per model |
+| [`fed-sim`](https://github.com/Thush099/fed-sim) | DP-FedAvg console | Round-by-round accuracy against the privacy–utility tradeoff |
+| [`fusion-transformer`](https://github.com/Thush099/fusion-transformer) | Training console | Loss curves and macro-F1 as the fusion model trains |
+| [`veridoc-forensics`](https://github.com/Thush099/veridoc-forensics) | Verification studio | OCR restoration, tamper flags, and claim-level evidence |
+| [`traceguard-eval`](https://github.com/Thush099/traceguard-eval) | Agent reliability studio | Trace replay and fault-fuzzing under adversarial errors |
+| [`hiring-agent`](https://github.com/Thush099/hiring-agent) | Rubric scoring workbench | Category clamping and final-score audit, with human review |
+| [`SkillEvaluator`](https://github.com/Thush099/SkillEvaluator) | Skill-eval scorecard | Trigger precision/recall across positive/negative/adversarial cases |
+| [`cleanlab`](https://github.com/Thush099/cleanlab) | Label-quality inspector | Per-token label-quality scores and flagged issue candidates |
+| [`chonkie`](https://github.com/Thush099/chonkie) | Chunk-context workbench | Chunk splitting and the overlap context that stitches chunks |
+
+---
+
 ### Core Stack
 
 <p align="center">
