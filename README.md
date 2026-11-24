@@ -22,7 +22,8 @@
 ### About Me
 
 - **Education:** BSc (Hons) **Artificial Intelligence & Data Science** undergraduate at **IIT Sri Lanka** (affiliated with **Robert Gordon University**)
-- **Industry Experience:** Former **AI Engineering Intern at DecodeLabs** — delivered applied ML classifiers, NLP skill recommenders, query guardrails, and OpenCV/OCR pipelines
+- **Currently:** **Artificial Intelligence Intern at SLT-MOBITEL** — Digital Platforms Development Section, designing and implementing intelligent features for enterprise-scale platforms
+- **Previously:** **AI Engineering Intern at DecodeLabs** (applied ML classifiers, NLP skill recommenders, query guardrails, OpenCV/OCR pipelines) · **Enterprise Operations at Gennext (Pvt) Ltd** (IT infrastructure & system reliability)
 - **Engineering Focus:** Local-first native macOS AI apps (Swift + Node.js), tool-using agent evaluation, evidence-grounded NLI & RAG verification, and open-source ML library reliability
 
 ---
