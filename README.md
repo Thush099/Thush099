@@ -13,6 +13,10 @@
   <a href="https://github.com/Thush099?tab=repositories"><img src="https://img.shields.io/badge/Repositories-All_Work-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub repositories" /></a>
 </p>
 
+<p align="center">
+  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>700+</b> automated tests &nbsp;·&nbsp; <b>10</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub>
+</p>
+
 ---
 
 ### About Me
@@ -167,6 +171,21 @@ Modular Python libraries spanning hybrid RAG, LLM faithfulness evaluation, strea
     </td>
   </tr>
 </table>
+
+---
+
+### Engineering Standards — Release-Ready by Default
+
+These aren't one-off demos. Every repository — native macOS apps, Python ML libraries, and evaluation harnesses alike — is brought to the same bar before it ships:
+
+| Standard | What it means in practice |
+| :--- | :--- |
+| **Real-pipeline web UIs** | 14 local studios drive each repo's *actual* pipeline in the browser — no mock data, no canned responses. Single-file HTML behind a standard-library server, zero front-end build. |
+| **Boundary validation** | Every public CLI, API, and model boundary rejects invalid input with a clear `HTTP 400` or `ValueError` — never a silent wrong number. Regression-tested at each edge. |
+| **CI pipeline gating** | Opt-in `--fail-on` / `--min-*` threshold exit codes in 10 repos make CI fail the instant a quality metric regresses. |
+| **Numerical correctness** | Corner-case regression tests — NaN/inf rejection, score clamping, boundary ordering — guarantee metrics never mislead. |
+| **Accessible by default** | Skip links, semantic landmarks, `role="alert"` error regions, and `prefers-reduced-motion` guards in every UI. |
+| **Deterministic CI & tests** | 700+ automated `pytest` tests with GitHub Actions workflows across the release-ready Python projects. |
 
 ---
 
