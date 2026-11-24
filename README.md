@@ -191,7 +191,7 @@ These aren't one-off demos. Every repository — native macOS apps, Python ML li
 
 ### Interactive Web UIs
 
-Every tool above ships a local web UI that drives its **real pipeline** in the browser — no demo data, no mock responses. Each is a single self-contained HTML page behind a small standard-library server (`python ui/server.py`), so it runs anywhere with no front-end build step.
+Every tool above ships a local web UI that drives its **real pipeline** in the browser — no demo data, no mock responses. Each is a single self-contained HTML page behind a small standard-library server (`python ui/server.py`), so it runs anywhere with no front-end build step. These aren't screenshots — clone any repo and run the studio against the real code.
 
 | Repository | Studio | What it visualizes |
 | :--- | :--- | :--- |
