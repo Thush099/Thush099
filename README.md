@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>700+</b> automated tests &nbsp;·&nbsp; <b>10</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub>
+  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>900+</b> automated tests &nbsp;·&nbsp; <b>10</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub>
 </p>
 
 ---
@@ -42,7 +42,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Thush099/LocalGravity"><strong>LocalGravity</strong></a> · Native macOS AI Command Center<br />
-      <sub>Compiled Swift <code>WKWebView</code> shell paired with a zero-dependency Node.js agent runtime for local Ollama and cloud models. Ships with a live Apple Silicon SVG telemetry dashboard, isolated split-pane Artifact Canvas, 36 Mac &amp; web tools, 30 starter skills, voice/TTS, scheduled <code>launchd</code> jobs, and <strong>192 passing tests</strong>.</sub>
+      <sub>Compiled Swift <code>WKWebView</code> shell paired with a zero-dependency Node.js agent runtime for local Ollama and cloud models. Ships with a live Apple Silicon SVG telemetry dashboard, isolated split-pane Artifact Canvas, 47 Mac &amp; web tools, 30 starter skills, voice/TTS, scheduled <code>launchd</code> jobs, and <strong>204 passing tests</strong>.</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Thush099/omni-code/tree/feature/ux-desktop-improvements"><strong>omni-code</strong></a> · Multi-LLM Desktop &amp; CLI Assistant<br />
@@ -86,7 +86,7 @@
 
 | Repository | Architecture & Scope | Verified Results & Test Runs |
 | :--- | :--- | :--- |
-| [**`LocalGravity`**](https://github.com/Thush099/LocalGravity) | Compiled Swift `WKWebView` + dependency-free Node.js (`>=22`) runtime for Ollama & cloud APIs, Artifact Canvas sandbox, Apple Silicon SVG telemetry & 36 Mac tools | `0` npm runtime dependencies; **`192`** passing tests (`node --test`); GitHub Actions CI |
+| [**`LocalGravity`**](https://github.com/Thush099/LocalGravity) | Compiled Swift `WKWebView` + dependency-free Node.js (`>=22`) runtime for Ollama & cloud APIs, Artifact Canvas sandbox, Apple Silicon SVG telemetry & 47 Mac tools | `0` npm runtime dependencies; **`204`** passing tests (`node --test`); GitHub Actions CI |
 | [**`veridoc-forensics`**](https://github.com/Thush099/veridoc-forensics) | OpenCV skew/blur restoration, JPEG Q90 ELA + smooth-noise MAD Z-score tamper detection, Tesseract OCR, hybrid BM25/TF-IDF claim verification, FastAPI UI | Mean char &amp; word OCR accuracy **`66.7%` → `100.0%`** (`0.0%` → `100.0%` on degraded scan), `100.0%` claim verdict &amp; tamper accuracy; **`47`** passing `pytest` tests |
 | [**`traceguard-eval`**](https://github.com/Thush099/traceguard-eval) | Deterministic tool-agent sandbox, adversarial prompt-injection &amp; HTTP/JSON fault fuzzer, schema/step-budget contracts, FastAPI Trace Replay UI | `TraceGuardHardenedAgent` **`100.00`** vs `63.33` (`SchemaRetryAgent`) &amp; `39.58` (`NaiveAgent`) benchmark (`100.00` vs `61.00` vs `37.69` on 30-run fuzz); **`42`** passing `pytest` tests |
 | [**`CM3604_CW`**](https://github.com/Thush099/CM3604_CW) | Automated fact-checking of LLM outputs against BM25 evidence passages with grouped CV ablations &amp; error analysis | Majority baseline `50.68%` (`112/221`) → Lexical overlap `84.16%` (`186/221`) → Fine-tuned DeBERTa NLI **`88.24%` (`195/221`)** |
