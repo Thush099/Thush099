@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>1,200+</b> automated tests &nbsp;·&nbsp; <b>10</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub>
+  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>1,300+</b> automated tests &nbsp;·&nbsp; <b>11</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub>
 </p>
 
 ---
@@ -42,7 +42,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Thush099/LocalGravity"><strong>LocalGravity</strong></a> · Native macOS AI Command Center<br />
-      <sub>Compiled Swift <code>WKWebView</code> shell paired with a zero-dependency Node.js agent runtime for local Ollama and cloud models. Ships with a live Apple Silicon SVG telemetry dashboard, isolated split-pane Artifact Canvas, 47 Mac &amp; web tools, 30 starter skills, voice/TTS, scheduled <code>launchd</code> jobs, and <strong>252 passing tests</strong>.</sub>
+      <sub>Compiled Swift <code>WKWebView</code> shell paired with a zero-dependency Node.js agent runtime for local Ollama and cloud models. Ships with a live Apple Silicon SVG telemetry dashboard, isolated split-pane Artifact Canvas, 47 Mac &amp; web tools, 30 starter skills, voice/TTS, scheduled <code>launchd</code> jobs, and <strong>284 passing tests</strong>.</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Thush099/omni-code/tree/feature/ux-desktop-improvements"><strong>omni-code</strong></a> · Multi-LLM Desktop &amp; CLI Assistant<br />
@@ -86,8 +86,8 @@
 
 | Repository | Architecture & Scope | Verified Results & Test Runs |
 | :--- | :--- | :--- |
-| [**`LocalGravity`**](https://github.com/Thush099/LocalGravity) | Compiled Swift `WKWebView` + dependency-free Node.js (`>=22`) runtime for Ollama & cloud APIs, Artifact Canvas sandbox, Apple Silicon SVG telemetry & 47 Mac tools | `0` npm runtime dependencies; **`252`** passing tests (`node --test`); GitHub Actions CI |
-| [**`veridoc-forensics`**](https://github.com/Thush099/veridoc-forensics) | OpenCV skew/blur restoration, JPEG Q90 ELA + smooth-noise MAD Z-score tamper detection, Tesseract OCR, hybrid BM25/TF-IDF claim verification, FastAPI UI | Mean char &amp; word OCR accuracy **`66.7%` → `100.0%`** (`0.0%` → `100.0%` on degraded scan), `100.0%` claim verdict &amp; tamper accuracy; **`47`** passing `pytest` tests |
+| [**`LocalGravity`**](https://github.com/Thush099/LocalGravity) | Compiled Swift `WKWebView` + dependency-free Node.js (`>=22`) runtime for Ollama & cloud APIs, Artifact Canvas sandbox, Apple Silicon SVG telemetry & 47 Mac tools | `0` npm runtime dependencies; **`284`** passing tests (`node --test`); GitHub Actions CI |
+| [**`veridoc-forensics`**](https://github.com/Thush099/veridoc-forensics) | OpenCV skew/blur restoration, JPEG Q90 ELA + smooth-noise MAD Z-score tamper detection, Tesseract OCR, hybrid BM25/TF-IDF claim verification, FastAPI UI | Mean char &amp; word OCR accuracy **`66.7%` → `100.0%`** (`0.0%` → `100.0%` on degraded scan), `100.0%` claim verdict &amp; tamper accuracy; **`48`** passing `pytest` tests |
 | [**`traceguard-eval`**](https://github.com/Thush099/traceguard-eval) | Deterministic tool-agent sandbox, adversarial prompt-injection &amp; HTTP/JSON fault fuzzer, schema/step-budget contracts, FastAPI Trace Replay UI | `TraceGuardHardenedAgent` **`100.00`** vs `63.33` (`SchemaRetryAgent`) &amp; `39.58` (`NaiveAgent`) benchmark (`100.00` vs `61.00` vs `37.69` on 30-run fuzz); **`42`** passing `pytest` tests |
 | [**`CM3604_CW`**](https://github.com/Thush099/CM3604_CW) | Automated fact-checking of LLM outputs against BM25 evidence passages with grouped CV ablations &amp; error analysis | Majority baseline `50.68%` (`112/221`) → Lexical overlap `84.16%` (`186/221`) → Fine-tuned DeBERTa NLI **`88.24%` (`195/221`)** |
 | [**`DecodeLabs-Internship`**](https://github.com/Thush099/DecodeLabs-Internship) | Four applied AI capstones covering input guardrails, customer classification, TF-IDF skill-gap recommendations, and document OCR | Combines OpenCV perspective/contrast normalization with Tesseract extraction across standalone runnable pipelines |
@@ -106,7 +106,7 @@
 | [**`Thush099/SkillEvaluator`**](https://github.com/Thush099/SkillEvaluator) | [`NVIDIA/SkillEvaluator`](https://github.com/NVIDIA/SkillEvaluator) | Built standalone interactive evaluation runner &amp; architecture guide ([`feature/interactive-eval-and-workflow`](https://github.com/Thush099/SkillEvaluator/tree/feature/interactive-eval-and-workflow)), Markdown table escaping &amp; missing-path quickstart diagnostics (`4` passing `test_quickstart_eval.py` checks) |
 | [**`Thush099/chonkie`**](https://github.com/Thush099/chonkie) | [`feyninc/chonkie`](https://github.com/feyninc/chonkie) | Fixed `OverlapRefinery._split_text` and `_recursive_overlap` infinite-loop, exact-fit overlap &amp; whitespace boundary bugs (upstream `#681`, [`fix/overlap-refinery-recursive-whitespace`](https://github.com/Thush099/chonkie/tree/fix/overlap-refinery-recursive-whitespace)); `108` refinery &amp; recursive chunker tests pass (`4` `from_recipe` tests deselected without `huggingface_hub`) |
 | [**`Thush099/cleanlab`**](https://github.com/Thush099/cleanlab) | [`cleanlab/cleanlab`](https://github.com/cleanlab/cleanlab) | Fixed `IndexError` bounds ordering in `token_classification.rank.issues_from_scores` (`#1338`), single-class `K == 1` `ValueError` in `rank.get_normalized_margin_for_each_label` (`#1356`), and non-finite score alignment on [`fix/rank-boundary-guards`](https://github.com/Thush099/cleanlab/tree/fix/rank-boundary-guards) (`134` tests passing across rank, token classification, util &amp; validation suites) |
-| [**`Thush099/hiring-agent`**](https://github.com/Thush099/hiring-agent) | [`interviewstreet/hiring-agent`](https://github.com/interviewstreet/hiring-agent) | Hardened scoring bounds, non-finite value rejection &amp; JSON extraction; built [`calibration_audit.py`](https://github.com/Thush099/hiring-agent/blob/main/calibration_audit.py) for offline rubric integrity &amp; counterfactual fairness perturbation testing ([`feat/offline-rubric-calibration-audit`](https://github.com/Thush099/hiring-agent/tree/feat/offline-rubric-calibration-audit); `23` passing `pytest` tests) |
+| [**`Thush099/hiring-agent`**](https://github.com/Thush099/hiring-agent) | [`interviewstreet/hiring-agent`](https://github.com/interviewstreet/hiring-agent) | Hardened scoring bounds, non-finite value rejection &amp; JSON extraction; built [`calibration_audit.py`](https://github.com/Thush099/hiring-agent/blob/main/calibration_audit.py) for offline rubric integrity &amp; counterfactual fairness perturbation testing ([`feat/offline-rubric-calibration-audit`](https://github.com/Thush099/hiring-agent/tree/feat/offline-rubric-calibration-audit); `36` passing `pytest` tests) |
 
 ---
 
@@ -121,7 +121,7 @@ Modular Python libraries spanning hybrid RAG, LLM faithfulness evaluation, strea
       <ul>
         <li>
           <a href="https://github.com/Thush099/rag-pipeline"><code>rag-pipeline</code></a><br />
-          <sub>Okapi BM25 + L2-normalized dense cosine retrieval, Reciprocal Rank Fusion (<code>k=60</code>), cross-encoder proximity re-ranking, and sentence-level <code>[doc_id]</code> citation grounding with CI threshold gating.</sub>
+          <sub>Okapi BM25 + L2-normalized dense cosine retrieval, Reciprocal Rank Fusion (<code>k=60</code>), cross-encoder proximity re-ranking, sentence-level <code>[doc_id]</code> citation grounding with CI threshold gating, and a web workbench whose mode-compare rank matrix exposes the RRF fusion directly.</sub>
         </li>
         <li>
           <a href="https://github.com/Thush099/llm-eval-harness"><code>llm-eval-harness</code></a><br />
