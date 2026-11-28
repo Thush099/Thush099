@@ -12,11 +12,11 @@
   <!-- Top row: title + metric pill -->
   <text x="20" y="34" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700">LocalGravity · macOS AI</text>
   <rect x="278" y="16" width="144" height="24" rx="12" fill="#161B22" stroke="#38BDF8" stroke-opacity="0.5"/>
-  <text x="350" y="32" text-anchor="middle" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600">0 Deps · 165 Tests</text>
+  <text x="350" y="32" text-anchor="middle" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600">0 Deps · 284 Tests</text>
 
   <!-- Two-line verified technical summary -->
   <text x="20" y="66" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5">Swift WKWebView &amp; zero-dep Node.js hub for Ollama &amp; cloud</text>
-  <text x="20" y="85" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5">models · 36 Mac tools, SVG telemetry &amp; Artifact Canvas.</text>
+  <text x="20" y="85" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5">models · 47 Mac &amp; web tools, SVG telemetry &amp; Artifact Canvas.</text>
 
   <!-- Footer bar: language dot, repo owner/stats, domain tag -->
   <line x1="20" y1="112" x2="420" y2="112" stroke="#1E293B" stroke-width="1"/>
