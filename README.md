@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>1,300+</b> automated tests &nbsp;·&nbsp; <b>11</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub><br />
+  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>1,350+</b> automated tests &nbsp;·&nbsp; <b>11</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub><br />
   <sub>Every repo carries a review-ready quality PR with the full suite green — nothing merges to <code>main</code> without review.</sub>
 </p>
 
@@ -187,7 +187,7 @@ These aren't one-off demos. Every repository — native macOS apps, Python ML li
 | **CI pipeline gating** | Opt-in `--fail-on` / `--min-*` threshold exit codes in 10 repos make CI fail the instant a quality metric regresses. |
 | **Numerical correctness** | Corner-case regression tests — NaN/inf rejection, score clamping, boundary ordering — guarantee metrics never mislead. |
 | **Accessible by default** | Skip links, semantic landmarks, `role="alert"` error regions, and `prefers-reduced-motion` guards in every UI. |
-| **Deterministic CI & tests** | 700+ automated `pytest` tests with GitHub Actions workflows across the release-ready Python projects. |
+| **Deterministic CI & tests** | 850+ automated `pytest` tests with GitHub Actions workflows across the release-ready Python projects. |
 
 ---
 
