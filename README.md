@@ -62,6 +62,12 @@
       </a>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/Thush099/lattice"><strong>lattice</strong></a> · Native macOS Study Companion<br />
+      <sub>Native macOS study companion for YouTube &amp; SoundCloud — timestamped notes tied to playback, spaced repetition, a unified library, offline downloads, and focused study tracking.</sub>
+    </td>
+  </tr>
 </table>
 
 ---
