@@ -14,7 +14,8 @@
 </p>
 
 <p align="center">
-  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>1,300+</b> automated tests &nbsp;·&nbsp; <b>11</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub>
+  <sub><b>14</b> real-pipeline web UIs &nbsp;·&nbsp; <b>1,300+</b> automated tests &nbsp;·&nbsp; <b>11</b> CI-gated pipelines &nbsp;·&nbsp; <b>0</b> front-end build steps</sub><br />
+  <sub>Every repo carries a review-ready quality PR with the full suite green — nothing merges to <code>main</code> without review.</sub>
 </p>
 
 ---
@@ -112,7 +113,7 @@
 
 ### ML, Data Quality & Retrieval Toolkit
 
-Modular Python libraries spanning hybrid RAG, LLM faithfulness evaluation, streaming/batch drift observability, privacy-preserving federated training, causal uplift, and multimodal cross-attention — each shipped with CI workflows, boundary validation, CLIs, and automated `pytest` suites.
+Modular Python libraries spanning hybrid RAG, LLM faithfulness evaluation, streaming/batch drift observability, privacy-preserving federated training, causal uplift, and multimodal cross-attention — each shipped with CI workflows, boundary validation, CLIs, and automated `pytest` suites, published as review-ready quality PRs.
 
 <table>
   <tr>
